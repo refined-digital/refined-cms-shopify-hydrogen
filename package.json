@@ -1,0 +1,22 @@
+{
+  "name": "@refineddigital/cms-shopify-hydrogen",
+  "version": "1.0.0",
+  "scripts": {
+    "publish-and-tag": "git push --tags && git push origin master",
+    "version:patch": "npm version patch && npm run publish-and-tag",
+    "version:minor": "npm version minor && npm run publish-and-tag",
+    "version:marjor": "npm version major && npm run publish-and-tag"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/refineddigital/cms-shopify-hydrogen.git"
+  },
+  "author": "Matthias Law",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/refineddigital/cms-shopify-hydrogen/issues"
+  },
+  "homepage": "https://gitlab.com/refineddigital/cms-shopify-hydrogen#README",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -2,8 +2,8 @@
   "name": "refineddigital/cms-shopify-hydrogen",
   "description": "Shopify Hydrogen integration for RefinedCMS",
   "require": {
-    "refineddigital/cms": "^1.10|dev-master",
-    "shopify/shopify-api": "^3.0"
+    "php": "^8.4",
+    "refineddigital/cms": "^1.38|dev-master"
   },
   "license": "MIT",
   "authors": [
@@ -15,18 +15,14 @@
   "autoload": {
     "psr-4": {
       "RefinedDigital\\ShopifyHydrogen\\": "src/"
-    },
-    "files": [
-        "src/Module/Helpers/helpers.php"
-    ]
+    }
   },
   "extra": {
     "laravel": {
       "providers": [
         "RefinedDigital\\ShopifyHydrogen\\Module\\Providers\\ShopifyHydrogenServiceProvider"
       ],
-      "aliases": {
-      }
+      "aliases": {}
     }
   }
 }
